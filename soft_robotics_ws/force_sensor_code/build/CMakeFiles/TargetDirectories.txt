@@ -1,0 +1,3 @@
+/home/kwasi/soft_robotics_ws/force_sensor_code/build/CMakeFiles/force-sensor-data-reader.dir
+/home/kwasi/soft_robotics_ws/force_sensor_code/build/CMakeFiles/edit_cache.dir
+/home/kwasi/soft_robotics_ws/force_sensor_code/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+[0.162s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake /home/kwasi/soft_robotics_ws/src/soft_robot_control -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/soft_robot_control
+[0.288s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.157s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.813s] Traceback (most recent call last):
+[3.815s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[3.817s]     from catkin_pkg.package import parse_package_string
+[3.818s] ModuleNotFoundError: No module named 'catkin_pkg'
+[3.858s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.864s]   execute_process(/home/kwasi/.pyenv/shims/python3.10
+[3.865s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.865s]   /home/kwasi/soft_robotics_ws/src/soft_robot_control/package.xml
+[3.866s]   /home/kwasi/soft_robotics_ws/build/soft_robot_control/ament_cmake_core/package.cmake)
+[3.867s]   returned error code 1
+[3.867s] Call Stack (most recent call first):
+[3.872s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.876s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.877s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[3.877s] 
+[3.878s] -- Configuring incomplete, errors occurred!
+[3.879s] See also "/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/CMakeOutput.log".
+[3.880s] [0m
+[3.895s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '1': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake /home/kwasi/soft_robotics_ws/src/soft_robot_control -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/soft_robot_control

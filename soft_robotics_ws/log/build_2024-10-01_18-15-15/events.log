@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.005004] (force-sensor-data-reader) JobQueued: {'identifier': 'force-sensor-data-reader', 'dependencies': OrderedDict()}
+[0.005413] (soft_robot_control) JobQueued: {'identifier': 'soft_robot_control', 'dependencies': OrderedDict()}
+[0.005649] (force-sensor-data-reader) JobStarted: {'identifier': 'force-sensor-data-reader'}
+[0.067599] (soft_robot_control) JobStarted: {'identifier': 'soft_robot_control'}
+[0.095941] (-) TimerEvent: {}
+[0.140502] (force-sensor-data-reader) JobProgress: {'identifier': 'force-sensor-data-reader', 'progress': 'cmake'}
+[0.145463] (force-sensor-data-reader) JobProgress: {'identifier': 'force-sensor-data-reader', 'progress': 'build'}
+[0.150512] (force-sensor-data-reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader', '--', '-j2', '-l2'], 'cwd': '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kwasi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kwasi'), ('OLDPWD', '/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387f94b96a33a3503582caf466fadfa6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install:/home/kwasi/mower_sim_ws/install:/home/kwasi/depth_camera_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kwasi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kwasi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kwasi/.pyenv/shims:/home/kwasi/.pyenv/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/kwasi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/kwasi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kwasi/.local/bin:/home/kwasi/.local/bin'), ('SESSION_MANAGER', 'local/kwasi-Compaq-CQ58-Notebook-PC:@/tmp/.ICE-unix/1288,unix/kwasi-Compaq-CQ58-Notebook-PC:/tmp/.ICE-unix/1288'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97e0b876_e19e_484f_a423_d6e28844c763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z3KXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387f94b96a33a3503582caf466fadfa6'), ('PYENV_ROOT', '/home/kwasi/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:/home/kwasi/mower_sim_ws/install/mower_sim/lib/python3.10/site-packages:/home/kwasi/depth_camera_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control')]), 'shell': False}
+[0.179209] (soft_robot_control) JobProgress: {'identifier': 'soft_robot_control', 'progress': 'cmake'}
+[0.184391] (soft_robot_control) JobProgress: {'identifier': 'soft_robot_control', 'progress': 'build'}
+[0.187048] (soft_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kwasi/soft_robotics_ws/build/soft_robot_control', '--', '-j2', '-l2'], 'cwd': '/home/kwasi/soft_robotics_ws/build/soft_robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kwasi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kwasi'), ('OLDPWD', '/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387f94b96a33a3503582caf466fadfa6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install:/home/kwasi/mower_sim_ws/install:/home/kwasi/depth_camera_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kwasi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kwasi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kwasi/.pyenv/shims:/home/kwasi/.pyenv/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/kwasi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/kwasi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kwasi/.local/bin:/home/kwasi/.local/bin'), ('SESSION_MANAGER', 'local/kwasi-Compaq-CQ58-Notebook-PC:@/tmp/.ICE-unix/1288,unix/kwasi-Compaq-CQ58-Notebook-PC:/tmp/.ICE-unix/1288'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97e0b876_e19e_484f_a423_d6e28844c763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z3KXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kwasi/soft_robotics_ws/build/soft_robot_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387f94b96a33a3503582caf466fadfa6'), ('PYENV_ROOT', '/home/kwasi/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:/home/kwasi/mower_sim_ws/install/mower_sim/lib/python3.10/site-packages:/home/kwasi/depth_camera_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kwasi/soft_robotics_ws/install/soft_robot_control:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[0.196184] (-) TimerEvent: {}
+[0.297434] (-) TimerEvent: {}
+[0.398639] (-) TimerEvent: {}
+[0.499806] (-) TimerEvent: {}
+[0.523656] (force-sensor-data-reader) StdoutLine: {'line': b'[100%] Built target force-sensor-data-reader\n'}
+[0.601958] (force-sensor-data-reader) CommandEnded: {'returncode': 0}
+[0.604437] (-) TimerEvent: {}
+[0.682562] (soft_robot_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o\x1b[0m\n'}
+[0.704997] (-) TimerEvent: {}
+[0.809479] (-) TimerEvent: {}
+[0.846531] (force-sensor-data-reader) JobEnded: {'identifier': 'force-sensor-data-reader', 'rc': 0}
+[0.909748] (-) TimerEvent: {}
+[1.010839] (-) TimerEvent: {}
+[1.111864] (-) TimerEvent: {}
+[1.213082] (-) TimerEvent: {}
+[1.314084] (-) TimerEvent: {}
+[1.415100] (-) TimerEvent: {}
+[1.516120] (-) TimerEvent: {}
+[1.617490] (-) TimerEvent: {}
+[1.718509] (-) TimerEvent: {}
+[1.819538] (-) TimerEvent: {}
+[1.920669] (-) TimerEvent: {}
+[2.021798] (-) TimerEvent: {}
+[2.122824] (-) TimerEvent: {}
+[2.223851] (-) TimerEvent: {}
+[2.324928] (-) TimerEvent: {}
+[2.425973] (-) TimerEvent: {}
+[2.527010] (-) TimerEvent: {}
+[2.628351] (-) TimerEvent: {}
+[2.730291] (-) TimerEvent: {}
+[2.831561] (-) TimerEvent: {}
+[2.932613] (-) TimerEvent: {}
+[3.033932] (-) TimerEvent: {}
+[3.135294] (-) TimerEvent: {}
+[3.236453] (-) TimerEvent: {}
+[3.337988] (-) TimerEvent: {}
+[3.439811] (-) TimerEvent: {}
+[3.541583] (-) TimerEvent: {}
+[3.642862] (-) TimerEvent: {}
+[3.744441] (-) TimerEvent: {}
+[3.845689] (-) TimerEvent: {}
+[3.946964] (-) TimerEvent: {}
+[4.048242] (-) TimerEvent: {}
+[4.149764] (-) TimerEvent: {}
+[4.251044] (-) TimerEvent: {}
+[4.353784] (-) TimerEvent: {}
+[4.455655] (-) TimerEvent: {}
+[4.557168] (-) TimerEvent: {}
+[4.658612] (-) TimerEvent: {}
+[4.760461] (-) TimerEvent: {}
+[4.861960] (-) TimerEvent: {}
+[4.963253] (-) TimerEvent: {}
+[5.065109] (-) TimerEvent: {}
+[5.166511] (-) TimerEvent: {}
+[5.267938] (-) TimerEvent: {}
+[5.369437] (-) TimerEvent: {}
+[5.471286] (-) TimerEvent: {}
+[5.572596] (-) TimerEvent: {}
+[5.674464] (-) TimerEvent: {}
+[5.775648] (-) TimerEvent: {}
+[5.878949] (-) TimerEvent: {}
+[5.980256] (-) TimerEvent: {}
+[6.081753] (-) TimerEvent: {}
+[6.183078] (-) TimerEvent: {}
+[6.285012] (-) TimerEvent: {}
+[6.386435] (-) TimerEvent: {}
+[6.487861] (-) TimerEvent: {}
+[6.589370] (-) TimerEvent: {}
+[6.690777] (-) TimerEvent: {}
+[6.792060] (-) TimerEvent: {}
+[6.893981] (-) TimerEvent: {}
+[6.995303] (-) TimerEvent: {}
+[7.096728] (-) TimerEvent: {}
+[7.198253] (-) TimerEvent: {}
+[7.299670] (-) TimerEvent: {}
+[7.401088] (-) TimerEvent: {}
+[7.502940] (-) TimerEvent: {}
+[7.604358] (-) TimerEvent: {}
+[7.705876] (-) TimerEvent: {}
+[7.807299] (-) TimerEvent: {}
+[7.908589] (-) TimerEvent: {}
+[8.010135] (-) TimerEvent: {}
+[8.111979] (-) TimerEvent: {}
+[8.213473] (-) TimerEvent: {}
+[8.314923] (-) TimerEvent: {}
+[8.416344] (-) TimerEvent: {}
+[8.517865] (-) TimerEvent: {}
+[8.619118] (-) TimerEvent: {}
+[8.720312] (-) TimerEvent: {}
+[8.821821] (-) TimerEvent: {}
+[8.923126] (-) TimerEvent: {}
+[9.024449] (-) TimerEvent: {}
+[9.125968] (-) TimerEvent: {}
+[9.227287] (-) TimerEvent: {}
+[9.329140] (-) TimerEvent: {}
+[9.430459] (-) TimerEvent: {}
+[9.531791] (-) TimerEvent: {}
+[9.633242] (-) TimerEvent: {}
+[9.734544] (-) TimerEvent: {}
+[9.835963] (-) TimerEvent: {}
+[9.937357] (-) TimerEvent: {}
+[10.038670] (-) TimerEvent: {}
+[10.140088] (-) TimerEvent: {}
+[10.241589] (-) TimerEvent: {}
+[10.342997] (-) TimerEvent: {}
+[10.444919] (-) TimerEvent: {}
+[10.546758] (-) TimerEvent: {}
+[10.648180] (-) TimerEvent: {}
+[10.749648] (-) TimerEvent: {}
+[10.851491] (-) TimerEvent: {}
+[10.952865] (-) TimerEvent: {}
+[11.054293] (-) TimerEvent: {}
+[11.156017] (-) TimerEvent: {}
+[11.257548] (-) TimerEvent: {}
+[11.358948] (-) TimerEvent: {}
+[11.460887] (-) TimerEvent: {}
+[11.562306] (-) TimerEvent: {}
+[11.663600] (-) TimerEvent: {}
+[11.765559] (-) TimerEvent: {}
+[11.866855] (-) TimerEvent: {}
+[11.968277] (-) TimerEvent: {}
+[12.069806] (-) TimerEvent: {}
+[12.171216] (-) TimerEvent: {}
+[12.272620] (-) TimerEvent: {}
+[12.374553] (-) TimerEvent: {}
+[12.476341] (-) TimerEvent: {}
+[12.578168] (-) TimerEvent: {}
+[12.679340] (-) TimerEvent: {}
+[12.780512] (-) TimerEvent: {}
+[12.885442] (-) TimerEvent: {}
+[12.987297] (-) TimerEvent: {}
+[13.088725] (-) TimerEvent: {}
+[13.190460] (-) TimerEvent: {}
+[13.291782] (-) TimerEvent: {}
+[13.393021] (-) TimerEvent: {}
+[13.494476] (-) TimerEvent: {}
+[13.596319] (-) TimerEvent: {}
+[13.697837] (-) TimerEvent: {}
+[13.799256] (-) TimerEvent: {}
+[13.901117] (-) TimerEvent: {}
+[14.002540] (-) TimerEvent: {}
+[14.103955] (-) TimerEvent: {}
+[14.205867] (-) TimerEvent: {}
+[14.307287] (-) TimerEvent: {}
+[14.408689] (-) TimerEvent: {}
+[14.510224] (-) TimerEvent: {}
+[14.611634] (-) TimerEvent: {}
+[14.713452] (-) TimerEvent: {}
+[14.814647] (-) TimerEvent: {}
+[14.915943] (-) TimerEvent: {}
+[15.017454] (-) TimerEvent: {}
+[15.118874] (-) TimerEvent: {}
+[15.220304] (-) TimerEvent: {}
+[15.321811] (-) TimerEvent: {}
+[15.423650] (-) TimerEvent: {}
+[15.525086] (-) TimerEvent: {}
+[15.626611] (-) TimerEvent: {}
+[15.727919] (-) TimerEvent: {}
+[15.829277] (-) TimerEvent: {}
+[15.930336] (-) TimerEvent: {}
+[16.031401] (-) TimerEvent: {}
+[16.132480] (-) TimerEvent: {}
+[16.233853] (-) TimerEvent: {}
+[16.335302] (-) TimerEvent: {}
+[16.436721] (-) TimerEvent: {}
+[16.538211] (-) TimerEvent: {}
+[16.640056] (-) TimerEvent: {}
+[16.741543] (-) TimerEvent: {}
+[16.842830] (-) TimerEvent: {}
+[16.944138] (-) TimerEvent: {}
+[17.045544] (-) TimerEvent: {}
+[17.146962] (-) TimerEvent: {}
+[17.248894] (-) TimerEvent: {}
+[17.350302] (-) TimerEvent: {}
+[17.452144] (-) TimerEvent: {}
+[17.553667] (-) TimerEvent: {}
+[17.655107] (-) TimerEvent: {}
+[17.756409] (-) TimerEvent: {}
+[17.858316] (-) TimerEvent: {}
+[17.959599] (-) TimerEvent: {}
+[18.060995] (-) TimerEvent: {}
+[18.162277] (-) TimerEvent: {}
+[18.263712] (-) TimerEvent: {}
+[18.365175] (-) TimerEvent: {}
+[18.467023] (-) TimerEvent: {}
+[18.568331] (-) TimerEvent: {}
+[18.669835] (-) TimerEvent: {}
+[18.771252] (-) TimerEvent: {}
+[18.872558] (-) TimerEvent: {}
+[18.974054] (-) TimerEvent: {}
+[19.075907] (-) TimerEvent: {}
+[19.177294] (-) TimerEvent: {}
+[19.278689] (-) TimerEvent: {}
+[19.379890] (-) TimerEvent: {}
+[19.481593] (-) TimerEvent: {}
+[19.582895] (-) TimerEvent: {}
+[19.684530] (-) TimerEvent: {}
+[19.786062] (-) TimerEvent: {}
+[19.887525] (-) TimerEvent: {}
+[19.989049] (-) TimerEvent: {}
+[20.090373] (-) TimerEvent: {}
+[20.191561] (-) TimerEvent: {}
+[20.292741] (-) TimerEvent: {}
+[20.393978] (-) TimerEvent: {}
+[20.495147] (-) TimerEvent: {}
+[20.596330] (-) TimerEvent: {}
+[20.697704] (-) TimerEvent: {}
+[20.799424] (-) TimerEvent: {}
+[20.900737] (-) TimerEvent: {}
+[21.002246] (-) TimerEvent: {}
+[21.103643] (-) TimerEvent: {}
+[21.205068] (-) TimerEvent: {}
+[21.306378] (-) TimerEvent: {}
+[21.407781] (-) TimerEvent: {}
+[21.509748] (-) TimerEvent: {}
+[21.611060] (-) TimerEvent: {}
+[21.712477] (-) TimerEvent: {}
+[21.813962] (-) TimerEvent: {}
+[21.915239] (-) TimerEvent: {}
+[22.016545] (-) TimerEvent: {}
+[22.118485] (-) TimerEvent: {}
+[22.219908] (-) TimerEvent: {}
+[22.321395] (-) TimerEvent: {}
+[22.422837] (-) TimerEvent: {}
+[22.524295] (-) TimerEvent: {}
+[22.625807] (-) TimerEvent: {}
+[22.727702] (-) TimerEvent: {}
+[22.829169] (-) TimerEvent: {}
+[22.931078] (-) TimerEvent: {}
+[23.032374] (-) TimerEvent: {}
+[23.133919] (-) TimerEvent: {}
+[23.235245] (-) TimerEvent: {}
+[23.337194] (-) TimerEvent: {}
+[23.438608] (-) TimerEvent: {}
+[23.540036] (-) TimerEvent: {}
+[23.641601] (-) TimerEvent: {}
+[23.743051] (-) TimerEvent: {}
+[23.844576] (-) TimerEvent: {}
+[23.946579] (-) TimerEvent: {}
+[24.047886] (-) TimerEvent: {}
+[24.149415] (-) TimerEvent: {}
+[24.250745] (-) TimerEvent: {}
+[24.352177] (-) TimerEvent: {}
+[24.454177] (-) TimerEvent: {}
+[24.555929] (-) TimerEvent: {}
+[24.658162] (-) TimerEvent: {}
+[24.759704] (-) TimerEvent: {}
+[24.861379] (-) TimerEvent: {}
+[24.963398] (-) TimerEvent: {}
+[25.065004] (-) TimerEvent: {}
+[25.166088] (-) TimerEvent: {}
+[25.267295] (-) TimerEvent: {}
+[25.368988] (-) TimerEvent: {}
+[25.472254] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.473689] (-) TimerEvent: {}
+[25.474499] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.475438] (soft_robot_control) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::init(argc, argv, "force_sensor_data_reader"); // Initialize the ROS node with the new name\n'}
+[25.476117] (soft_robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.476902] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.477767] (soft_robot_control) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::NodeHandle nh;                                // Node handle for ROS communication\n'}
+[25.478439] (soft_robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.479244] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.480373] (soft_robot_control) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Publisher average_pub = nh.advertise<std_msgs::Float64>("sensor_average", 10);\n'}
+[25.481593] (soft_robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.482545] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:84:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.483215] (soft_robot_control) StderrLine: {'line': b'   84 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Rate loop_rate(1);  // 1 Hz means it sends data once per second\n'}
+[25.483851] (soft_robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.484473] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:87:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.485383] (soft_robot_control) StderrLine: {'line': b'   87 |     while (\x1b[01;31m\x1b[Kros\x1b[m\x1b[K::ok()) {\n'}
+[25.486048] (soft_robot_control) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.486677] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:108:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.487354] (soft_robot_control) StderrLine: {'line': b'  108 |         std_msgs::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K avg_msg;\n'}
+[25.487988] (soft_robot_control) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.488609] (soft_robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:7\x1b[m\x1b[K,\n'}
+[25.489338] (soft_robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:11\x1b[m\x1b[K:\n'}
+[25.489984] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp:122:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[25.492204] (soft_robot_control) StderrLine: {'line': b'  122 | using \x1b[01;36m\x1b[KFloat64\x1b[m\x1b[K =\n'}
+[25.493769] (soft_robot_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.495482] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:109:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kavg_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.500406] (soft_robot_control) StderrLine: {'line': b'  109 |         \x1b[01;31m\x1b[Kavg_msg\x1b[m\x1b[K.data = average;\n'}
+[25.503565] (soft_robot_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.504463] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:112:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaverage_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kaverage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.505367] (soft_robot_control) StderrLine: {'line': b'  112 |         \x1b[01;31m\x1b[Kaverage_pub\x1b[m\x1b[K.publish(avg_msg);\n'}
+[25.506088] (soft_robot_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.506777] (soft_robot_control) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kaverage\x1b[m\x1b[K\n'}
+[25.507582] (soft_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:118:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloop_rate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.508314] (soft_robot_control) StderrLine: {'line': b'  118 |         \x1b[01;31m\x1b[Kloop_rate\x1b[m\x1b[K.sleep();\n'}
+[25.509309] (soft_robot_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[25.510016] (soft_robot_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/force_sensor_data_reader.dir/build.make:76: CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o] Error 1\n'}
+[25.510721] (soft_robot_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/force_sensor_data_reader.dir/all] Error 2\n'}
+[25.511394] (soft_robot_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.512160] (soft_robot_control) CommandEnded: {'returncode': 2}
+[25.574044] (-) TimerEvent: {}
+[25.675045] (-) TimerEvent: {}
+[25.767318] (soft_robot_control) JobEnded: {'identifier': 'soft_robot_control', 'rc': 2}
+[25.775555] (-) TimerEvent: {}
+[25.782327] (-) EventReactorShutdown: {}

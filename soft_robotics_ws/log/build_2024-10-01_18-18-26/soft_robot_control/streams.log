@@ -1,0 +1,26 @@
+[0.126s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[0.541s] [35m[1mConsolidate compiler generated dependencies of target force_sensor_data_reader[0m
+[0.746s] [ 50%] [32mBuilding CXX object CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o[0m
+[38.584s] [100%] [32m[1mLinking CXX executable force_sensor_data_reader[0m
+[40.756s] [100%] Built target force_sensor_data_reader
+[40.829s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[41.068s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --install /home/kwasi/soft_robotics_ws/build/soft_robot_control
+[41.130s] -- Install configuration: ""
+[41.133s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control/force_sensor_data_reader
+[41.147s] -- Set runtime path of "/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control/force_sensor_data_reader" to ""
+[41.150s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/package_run_dependencies/soft_robot_control
+[41.153s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/parent_prefix_path/soft_robot_control
+[41.156s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.sh
+[41.158s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.dsv
+[41.161s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.sh
+[41.163s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.dsv
+[41.166s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.bash
+[41.168s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.sh
+[41.170s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.zsh
+[41.172s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.dsv
+[41.175s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.dsv
+[41.179s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/packages/soft_robot_control
+[41.182s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig.cmake
+[41.184s] -- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig-version.cmake
+[41.186s] -- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.xml
+[41.202s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --install /home/kwasi/soft_robotics_ws/build/soft_robot_control

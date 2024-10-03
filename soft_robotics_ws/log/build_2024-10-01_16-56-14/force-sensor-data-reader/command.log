@@ -1,0 +1,1 @@
+Invoking command in '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader': /usr/bin/cmake /home/kwasi/soft_robotics_ws/force_sensor_code -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/force-sensor-data-reader

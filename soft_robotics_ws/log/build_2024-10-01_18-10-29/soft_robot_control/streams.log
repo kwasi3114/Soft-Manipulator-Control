@@ -1,0 +1,10 @@
+[0.121s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o[0m
+[4.436s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float64.h: No such file or directory
+[4.437s]    12 | #include [01;31m[K<std_msgs/Float64.h>[m[K  // ROS message type for publishing the average
+[4.438s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.447s] compilation terminated.
+[4.457s] gmake[2]: *** [CMakeFiles/force_sensor_data_reader.dir/build.make:76: CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o] Error 1
+[4.464s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/force_sensor_data_reader.dir/all] Error 2
+[4.464s] gmake: *** [Makefile:146: all] Error 2
+[4.471s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/soft_robot_control/soft_robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/soft_robot_control/soft_robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/soft_robot_control/soft_robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/soft_robot_control/soft_robot_control.egg-info/requires.txt
+writing top-level names to ../../build/soft_robot_control/soft_robot_control.egg-info/top_level.txt
+reading manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying soft_robot_control/motor_control.py -> /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control
+copying soft_robot_control/stepper_test.py -> /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control
+running install
+running install_lib
+copying /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control/motor_control.py -> /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control
+copying /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control/stepper_test.py -> /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control
+byte-compiling /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control/motor_control.py to motor_control.cpython-310.pyc
+byte-compiling /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control/stepper_test.py to stepper_test.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/soft_robot_control/soft_robot_control.egg-info to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_control script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control
+Installing sensor_reader script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control
+writing list of installed files to '/home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log'

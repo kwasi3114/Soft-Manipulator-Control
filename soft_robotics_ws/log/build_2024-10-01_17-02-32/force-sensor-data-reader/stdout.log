@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/force-sensor-data-reader.dir/netft.cpp.o[0m
+[100%] [32m[1mLinking CXX executable force-sensor-data-reader[0m
+[100%] Built target force-sensor-data-reader

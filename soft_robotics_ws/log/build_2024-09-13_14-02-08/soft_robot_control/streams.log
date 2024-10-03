@@ -1,0 +1,25 @@
+[7.660s] Invoking command in '/home/kwasi/soft_robotics_ws/src/soft_robot_control': PYTHONPATH=/home/kwasi/soft_robotics_ws/build/soft_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/soft_robot_control build --build-base /home/kwasi/soft_robotics_ws/build/soft_robot_control/build install --record /home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log --single-version-externally-managed install_data
+[10.801s] running egg_info
+[10.807s] writing ../../build/soft_robot_control/soft_robot_control.egg-info/PKG-INFO
+[10.810s] writing dependency_links to ../../build/soft_robot_control/soft_robot_control.egg-info/dependency_links.txt
+[10.812s] writing entry points to ../../build/soft_robot_control/soft_robot_control.egg-info/entry_points.txt
+[10.814s] writing requirements to ../../build/soft_robot_control/soft_robot_control.egg-info/requires.txt
+[10.815s] writing top-level names to ../../build/soft_robot_control/soft_robot_control.egg-info/top_level.txt
+[10.829s] reading manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'
+[10.839s] writing manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'
+[10.841s] running build
+[10.842s] running build_py
+[10.843s] copying soft_robot_control/sensor_reader.py -> /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control
+[10.844s] running install
+[10.846s] running install_lib
+[10.852s] copying /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control/sensor_reader.py -> /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control
+[10.864s] byte-compiling /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control/sensor_reader.py to sensor_reader.cpython-310.pyc
+[10.877s] running install_data
+[10.878s] running install_egg_info
+[11.014s] removing '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[11.016s] Copying ../../build/soft_robot_control/soft_robot_control.egg-info to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info
+[11.024s] running install_scripts
+[11.271s] Installing motor_control script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control
+[11.272s] Installing sensor_reader script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control
+[11.279s] writing list of installed files to '/home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log'
+[11.482s] Invoked command in '/home/kwasi/soft_robotics_ws/src/soft_robot_control' returned '0': PYTHONPATH=/home/kwasi/soft_robotics_ws/build/soft_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/soft_robot_control build --build-base /home/kwasi/soft_robotics_ws/build/soft_robot_control/build install --record /home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log --single-version-externally-managed install_data

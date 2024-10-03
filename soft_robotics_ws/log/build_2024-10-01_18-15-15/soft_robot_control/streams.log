@@ -1,0 +1,40 @@
+[0.123s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[0.616s] [ 50%] [32mBuilding CXX object CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o[0m
+[25.406s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[25.407s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[25.408s]    34 |     [01;31m[Kros[m[K::init(argc, argv, "force_sensor_data_reader"); // Initialize the ROS node with the new name
+[25.409s]       |     [01;31m[K^~~[m[K
+[25.410s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[25.410s]    35 |     [01;31m[Kros[m[K::NodeHandle nh;                                // Node handle for ROS communication
+[25.411s]       |     [01;31m[K^~~[m[K
+[25.412s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[25.413s]    38 |     [01;31m[Kros[m[K::Publisher average_pub = nh.advertise<std_msgs::Float64>("sensor_average", 10);
+[25.415s]       |     [01;31m[K^~~[m[K
+[25.415s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:84:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[25.416s]    84 |     [01;31m[Kros[m[K::Rate loop_rate(1);  // 1 Hz means it sends data once per second
+[25.416s]       |     [01;31m[K^~~[m[K
+[25.417s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:87:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[25.418s]    87 |     while ([01;31m[Kros[m[K::ok()) {
+[25.419s]       |            [01;31m[K^~~[m[K
+[25.419s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:108:19:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Float64[m[K’?
+[25.420s]   108 |         std_msgs::[01;31m[KFloat64[m[K avg_msg;
+[25.421s]       |                   [01;31m[K^~~~~~~[m[K
+[25.421s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:7[m[K,
+[25.422s]                  from [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:11[m[K:
+[25.424s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp:122:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Float64[m[K’ declared here
+[25.426s]   122 | using [01;36m[KFloat64[m[K =
+[25.427s]       |       [01;36m[K^~~~~~~[m[K
+[25.432s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_msg[m[K’ was not declared in this scope
+[25.434s]   109 |         [01;31m[Kavg_msg[m[K.data = average;
+[25.436s]       |         [01;31m[K^~~~~~~[m[K
+[25.437s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:112:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaverage_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kaverage[m[K’?
+[25.438s]   112 |         [01;31m[Kaverage_pub[m[K.publish(avg_msg);
+[25.439s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[25.439s]       |         [32m[Kaverage[m[K
+[25.440s] [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[25.441s]   118 |         [01;31m[Kloop_rate[m[K.sleep();
+[25.442s]       |         [01;31m[K^~~~~~~~~[m[K
+[25.443s] gmake[2]: *** [CMakeFiles/force_sensor_data_reader.dir/build.make:76: CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o] Error 1
+[25.443s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/force_sensor_data_reader.dir/all] Error 2
+[25.444s] gmake: *** [Makefile:146: all] Error 2
+[25.446s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2

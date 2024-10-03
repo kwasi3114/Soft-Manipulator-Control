@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001278] (soft_robot_control) JobQueued: {'identifier': 'soft_robot_control', 'dependencies': OrderedDict()}
+[0.001584] (soft_robot_control) JobStarted: {'identifier': 'soft_robot_control'}
+[0.083650] (-) TimerEvent: {}
+[0.185063] (-) TimerEvent: {}
+[0.286457] (-) TimerEvent: {}
+[0.387853] (-) TimerEvent: {}
+[0.489459] (-) TimerEvent: {}
+[0.590993] (-) TimerEvent: {}
+[0.692414] (-) TimerEvent: {}
+[0.793740] (-) TimerEvent: {}
+[0.895080] (-) TimerEvent: {}
+[0.996520] (-) TimerEvent: {}
+[1.098042] (-) TimerEvent: {}
+[1.199348] (-) TimerEvent: {}
+[1.300691] (-) TimerEvent: {}
+[1.402019] (-) TimerEvent: {}
+[1.503347] (-) TimerEvent: {}
+[1.604740] (-) TimerEvent: {}
+[1.706038] (-) TimerEvent: {}
+[1.807544] (-) TimerEvent: {}
+[1.909120] (-) TimerEvent: {}
+[2.010611] (-) TimerEvent: {}
+[2.112239] (-) TimerEvent: {}
+[2.213704] (-) TimerEvent: {}
+[2.315187] (-) TimerEvent: {}
+[2.416673] (-) TimerEvent: {}
+[2.518148] (-) TimerEvent: {}
+[2.619610] (-) TimerEvent: {}
+[2.721211] (-) TimerEvent: {}
+[2.822669] (-) TimerEvent: {}
+[2.924218] (-) TimerEvent: {}
+[3.025736] (-) TimerEvent: {}
+[3.127224] (-) TimerEvent: {}
+[3.228500] (-) TimerEvent: {}
+[3.329669] (-) TimerEvent: {}
+[3.430878] (-) TimerEvent: {}
+[3.532177] (-) TimerEvent: {}
+[3.633303] (-) TimerEvent: {}
+[3.734434] (-) TimerEvent: {}
+[3.835941] (-) TimerEvent: {}
+[3.937660] (-) TimerEvent: {}
+[4.039220] (-) TimerEvent: {}
+[4.140869] (-) TimerEvent: {}
+[4.242320] (-) TimerEvent: {}
+[4.343832] (-) TimerEvent: {}
+[4.445394] (-) TimerEvent: {}
+[4.546891] (-) TimerEvent: {}
+[4.675559] (-) TimerEvent: {}
+[4.776746] (-) TimerEvent: {}
+[4.877791] (-) TimerEvent: {}
+[4.978872] (-) TimerEvent: {}
+[5.079945] (-) TimerEvent: {}
+[5.181030] (-) TimerEvent: {}
+[5.282441] (-) TimerEvent: {}
+[5.390383] (-) TimerEvent: {}
+[5.492291] (-) TimerEvent: {}
+[5.594986] (-) TimerEvent: {}
+[5.703101] (-) TimerEvent: {}
+[5.805373] (-) TimerEvent: {}
+[5.907537] (-) TimerEvent: {}
+[6.009528] (-) TimerEvent: {}
+[6.116358] (-) TimerEvent: {}
+[6.218181] (-) TimerEvent: {}
+[6.319256] (-) TimerEvent: {}
+[6.420378] (-) TimerEvent: {}
+[6.521410] (-) TimerEvent: {}
+[6.622439] (-) TimerEvent: {}
+[6.723482] (-) TimerEvent: {}
+[6.824586] (-) TimerEvent: {}
+[6.925631] (-) TimerEvent: {}
+[7.026792] (-) TimerEvent: {}
+[7.128402] (-) TimerEvent: {}
+[7.229719] (-) TimerEvent: {}
+[7.330815] (-) TimerEvent: {}
+[7.432153] (-) TimerEvent: {}
+[7.533198] (-) TimerEvent: {}
+[7.640467] (-) TimerEvent: {}
+[7.742668] (-) TimerEvent: {}
+[7.847269] (-) TimerEvent: {}
+[7.948476] (-) TimerEvent: {}
+[8.050520] (-) TimerEvent: {}
+[8.151970] (-) TimerEvent: {}
+[8.255636] (-) TimerEvent: {}
+[8.357142] (-) TimerEvent: {}
+[8.460405] (-) TimerEvent: {}
+[8.570420] (-) TimerEvent: {}
+[8.676378] (-) TimerEvent: {}
+[8.778708] (-) TimerEvent: {}
+[8.885606] (-) TimerEvent: {}
+[8.987184] (-) TimerEvent: {}
+[9.088482] (-) TimerEvent: {}
+[9.189558] (-) TimerEvent: {}
+[9.292407] (-) TimerEvent: {}
+[9.393650] (-) TimerEvent: {}
+[9.494766] (-) TimerEvent: {}
+[9.598326] (-) TimerEvent: {}
+[9.699659] (-) TimerEvent: {}
+[9.801531] (-) TimerEvent: {}
+[9.908463] (-) TimerEvent: {}
+[9.998582] (soft_robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/soft_robot_control', 'build', '--build-base', '/home/kwasi/soft_robotics_ws/build/soft_robot_control/build', 'install', '--record', '/home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kwasi/soft_robotics_ws/src/soft_robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kwasi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kwasi', 'OLDPWD': '/home/kwasi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1377', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kwasi/soft_robotics_ws/install:/home/kwasi/mower_sim_ws/install:/home/kwasi/depth_camera_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kwasi/.pyenv/shims:/home/kwasi/.pyenv/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/kwasi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/kwasi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kwasi/.local/bin:/home/kwasi/.local/bin', 'SESSION_MANAGER': 'local/kwasi-Compaq-CQ58-Notebook-PC:@/tmp/.ICE-unix/1344,unix/kwasi-Compaq-CQ58-Notebook-PC:/tmp/.ICE-unix/1344', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1265788_1940_49d8_a4f5_2673a55f50bf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R436T2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kwasi/soft_robotics_ws/install/soft_robot_control:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kwasi/soft_robotics_ws/build/soft_robot_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/kwasi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kwasi/soft_robotics_ws/build/soft_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:/home/kwasi/mower_sim_ws/install/mower_sim/lib/python3.10/site-packages:/home/kwasi/depth_camera_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kwasi/soft_robotics_ws/install/soft_robot_control'}, 'shell': False}
+[10.014531] (-) TimerEvent: {}
+[10.116159] (-) TimerEvent: {}
+[10.217632] (-) TimerEvent: {}
+[10.319325] (-) TimerEvent: {}
+[10.420882] (-) TimerEvent: {}
+[10.522347] (-) TimerEvent: {}
+[10.623933] (-) TimerEvent: {}
+[10.725774] (-) TimerEvent: {}
+[10.827239] (-) TimerEvent: {}
+[10.928819] (-) TimerEvent: {}
+[11.030306] (-) TimerEvent: {}
+[11.131783] (-) TimerEvent: {}
+[11.233330] (-) TimerEvent: {}
+[11.334790] (-) TimerEvent: {}
+[11.437036] (-) TimerEvent: {}
+[11.538559] (-) TimerEvent: {}
+[11.648928] (-) TimerEvent: {}
+[11.750387] (-) TimerEvent: {}
+[11.852736] (-) TimerEvent: {}
+[11.953799] (-) TimerEvent: {}
+[12.054861] (-) TimerEvent: {}
+[12.155892] (-) TimerEvent: {}
+[12.256985] (-) TimerEvent: {}
+[12.358095] (-) TimerEvent: {}
+[12.459181] (-) TimerEvent: {}
+[12.560292] (-) TimerEvent: {}
+[12.661339] (-) TimerEvent: {}
+[12.762366] (-) TimerEvent: {}
+[12.863384] (-) TimerEvent: {}
+[12.964483] (-) TimerEvent: {}
+[13.065510] (-) TimerEvent: {}
+[13.166550] (-) TimerEvent: {}
+[13.267597] (-) TimerEvent: {}
+[13.368717] (-) TimerEvent: {}
+[13.472960] (-) TimerEvent: {}
+[13.574458] (-) TimerEvent: {}
+[13.675502] (-) TimerEvent: {}
+[13.776655] (-) TimerEvent: {}
+[13.877759] (-) TimerEvent: {}
+[13.978850] (-) TimerEvent: {}
+[14.079950] (-) TimerEvent: {}
+[14.181066] (-) TimerEvent: {}
+[14.282092] (-) TimerEvent: {}
+[14.383192] (-) TimerEvent: {}
+[14.484287] (-) TimerEvent: {}
+[14.585316] (-) TimerEvent: {}
+[14.686415] (-) TimerEvent: {}
+[14.787649] (-) TimerEvent: {}
+[14.888950] (-) TimerEvent: {}
+[14.990087] (-) TimerEvent: {}
+[15.091222] (-) TimerEvent: {}
+[15.192407] (-) TimerEvent: {}
+[15.293554] (-) TimerEvent: {}
+[15.394632] (-) TimerEvent: {}
+[15.495733] (-) TimerEvent: {}
+[15.596868] (-) TimerEvent: {}
+[15.697921] (-) TimerEvent: {}
+[15.799006] (-) TimerEvent: {}
+[15.900179] (-) TimerEvent: {}
+[16.001236] (-) TimerEvent: {}
+[16.102280] (-) TimerEvent: {}
+[16.204315] (-) TimerEvent: {}
+[16.305373] (-) TimerEvent: {}
+[16.312379] (soft_robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[16.319981] (soft_robot_control) StdoutLine: {'line': b'writing ../../build/soft_robot_control/soft_robot_control.egg-info/PKG-INFO\n'}
+[16.331371] (soft_robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/soft_robot_control/soft_robot_control.egg-info/dependency_links.txt\n'}
+[16.353661] (soft_robot_control) StdoutLine: {'line': b'writing entry points to ../../build/soft_robot_control/soft_robot_control.egg-info/entry_points.txt\n'}
+[16.360400] (soft_robot_control) StdoutLine: {'line': b'writing requirements to ../../build/soft_robot_control/soft_robot_control.egg-info/requires.txt\n'}
+[16.373980] (soft_robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/soft_robot_control/soft_robot_control.egg-info/top_level.txt\n'}
+[16.395912] (soft_robot_control) StdoutLine: {'line': b"reading manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'\n"}
+[16.405646] (-) TimerEvent: {}
+[16.408017] (soft_robot_control) StdoutLine: {'line': b"writing manifest file '../../build/soft_robot_control/soft_robot_control.egg-info/SOURCES.txt'\n"}
+[16.410694] (soft_robot_control) StdoutLine: {'line': b'running build\n'}
+[16.412317] (soft_robot_control) StdoutLine: {'line': b'running build_py\n'}
+[16.415543] (soft_robot_control) StdoutLine: {'line': b'copying soft_robot_control/motor_control.py -> /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control\n'}
+[16.421125] (soft_robot_control) StdoutLine: {'line': b'running install\n'}
+[16.448231] (soft_robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[16.457746] (soft_robot_control) StdoutLine: {'line': b'copying /home/kwasi/soft_robotics_ws/build/soft_robot_control/build/lib/soft_robot_control/motor_control.py -> /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control\n'}
+[16.474663] (soft_robot_control) StdoutLine: {'line': b'byte-compiling /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control/motor_control.py to motor_control.cpython-310.pyc\n'}
+[16.485833] (soft_robot_control) StdoutLine: {'line': b'running install_data\n'}
+[16.488944] (soft_robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.505922] (-) TimerEvent: {}
+[16.607479] (-) TimerEvent: {}
+[16.709186] (-) TimerEvent: {}
+[16.735788] (soft_robot_control) StdoutLine: {'line': b"removing '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.752164] (soft_robot_control) StdoutLine: {'line': b'Copying ../../build/soft_robot_control/soft_robot_control.egg-info to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages/soft_robot_control-0.0.0-py3.10.egg-info\n'}
+[16.763386] (soft_robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[16.809432] (-) TimerEvent: {}
+[16.910479] (-) TimerEvent: {}
+[17.011513] (-) TimerEvent: {}
+[17.113130] (-) TimerEvent: {}
+[17.119096] (soft_robot_control) StdoutLine: {'line': b'Installing motor_control script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control\n'}
+[17.122308] (soft_robot_control) StdoutLine: {'line': b'Installing sensor_reader script to /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control\n'}
+[17.150626] (soft_robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log'\n"}
+[17.213452] (-) TimerEvent: {}
+[17.315043] (-) TimerEvent: {}
+[17.416698] (-) TimerEvent: {}
+[17.496849] (soft_robot_control) CommandEnded: {'returncode': 0}
+[17.518318] (-) TimerEvent: {}
+[17.619948] (-) TimerEvent: {}
+[17.701681] (soft_robot_control) JobEnded: {'identifier': 'soft_robot_control', 'rc': 0}
+[17.709074] (-) EventReactorShutdown: {}

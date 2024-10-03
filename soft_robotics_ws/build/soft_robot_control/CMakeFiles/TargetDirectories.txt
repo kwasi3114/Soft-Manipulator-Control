@@ -1,0 +1,10 @@
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/uninstall.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/soft_robot_control_uninstall.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/force_sensor_data_reader.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/test.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/edit_cache.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/rebuild_cache.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/list_install_components.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/install.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/install/local.dir
+/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/install/strip.dir

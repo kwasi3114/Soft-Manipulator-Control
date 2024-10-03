@@ -1,0 +1,4 @@
+[console_scripts]
+motor_control = soft_robot_control.motor_control:main
+sensor_reader = soft_robot_control.sensor_reader:main
+

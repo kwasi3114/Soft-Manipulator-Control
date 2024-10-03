@@ -1,0 +1,22 @@
+[0.112s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[0.442s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.443s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.443s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.444s]   CMake did not find one.
+[0.445s] 
+[0.445s]   Could not find a package configuration file provided by "catkin" with any
+[0.446s]   of the following names:
+[0.447s] 
+[0.447s]     catkinConfig.cmake
+[0.452s]     catkin-config.cmake
+[0.453s] 
+[0.454s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.455s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.456s]   provides a separate development package or SDK, be sure it has been
+[0.457s]   installed.
+[0.457s] 
+[0.458s] [0m
+[0.458s] -- Configuring incomplete, errors occurred!
+[0.459s] See also "/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/CMakeOutput.log".
+[0.488s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.489s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2

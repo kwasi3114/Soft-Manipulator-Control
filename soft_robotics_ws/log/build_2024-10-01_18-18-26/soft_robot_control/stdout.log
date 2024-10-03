@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target force_sensor_data_reader[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable force_sensor_data_reader[0m
+[100%] Built target force_sensor_data_reader
+-- Install configuration: ""
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control/force_sensor_data_reader
+-- Set runtime path of "/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control/force_sensor_data_reader" to ""
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/package_run_dependencies/soft_robot_control
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/parent_prefix_path/soft_robot_control
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.sh
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.dsv
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.bash
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.sh
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.zsh
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.dsv
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.dsv
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/packages/soft_robot_control
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig.cmake
+-- Up-to-date: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig-version.cmake
+-- Installing: /home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.xml

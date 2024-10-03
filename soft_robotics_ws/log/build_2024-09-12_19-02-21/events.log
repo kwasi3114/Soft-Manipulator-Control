@@ -1,0 +1,21 @@
+[0.000000] (-) TimerEvent: {}
+[0.005417] (soft_robot_control) JobQueued: {'identifier': 'soft_robot_control', 'dependencies': OrderedDict()}
+[0.005810] (soft_robot_control) JobStarted: {'identifier': 'soft_robot_control'}
+[0.096147] (-) TimerEvent: {}
+[0.200466] (-) TimerEvent: {}
+[0.307341] (-) TimerEvent: {}
+[0.408691] (-) TimerEvent: {}
+[0.510022] (-) TimerEvent: {}
+[0.611850] (-) TimerEvent: {}
+[0.713593] (-) TimerEvent: {}
+[0.815399] (-) TimerEvent: {}
+[0.916677] (-) TimerEvent: {}
+[1.018431] (-) TimerEvent: {}
+[1.120270] (-) TimerEvent: {}
+[1.222045] (-) TimerEvent: {}
+[1.323770] (-) TimerEvent: {}
+[1.425043] (-) TimerEvent: {}
+[1.526340] (-) TimerEvent: {}
+[1.628251] (-) TimerEvent: {}
+[1.703319] (soft_robot_control) JobEnded: {'identifier': 'soft_robot_control', 'rc': 0}
+[1.715617] (-) EventReactorShutdown: {}

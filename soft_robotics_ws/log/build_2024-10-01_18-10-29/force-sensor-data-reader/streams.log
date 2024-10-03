@@ -1,0 +1,3 @@
+[0.146s] Invoking command in '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader': /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/force-sensor-data-reader -- -j2 -l2
+[0.612s] [100%] Built target force-sensor-data-reader
+[0.716s] Invoked command in '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader' returned '0': /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/force-sensor-data-reader -- -j2 -l2

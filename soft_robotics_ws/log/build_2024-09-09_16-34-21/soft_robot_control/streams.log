@@ -1,0 +1,35 @@
+[0.133s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake /home/kwasi/soft_robotics_ws/src/soft_robot_control -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/soft_robot_control
+[0.991s] -- The C compiler identification is GNU 11.4.0
+[1.688s] -- The CXX compiler identification is GNU 11.4.0
+[1.784s] -- Detecting C compiler ABI info
+[2.234s] -- Detecting C compiler ABI info - done
+[2.309s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[2.314s] -- Detecting C compile features
+[2.320s] -- Detecting C compile features - done
+[2.349s] -- Detecting CXX compiler ABI info
+[2.880s] -- Detecting CXX compiler ABI info - done
+[2.956s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.957s] -- Detecting CXX compile features
+[2.961s] -- Detecting CXX compile features - done
+[2.989s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.958s] -- Found Python3: /home/kwasi/.pyenv/shims/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.297s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.877s] Traceback (most recent call last):
+[14.879s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[14.880s]     from catkin_pkg.package import parse_package_string
+[14.881s] ModuleNotFoundError: No module named 'catkin_pkg'
+[14.911s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[14.912s]   execute_process(/home/kwasi/.pyenv/shims/python3.10
+[14.913s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[14.914s]   /home/kwasi/soft_robotics_ws/src/soft_robot_control/package.xml
+[14.915s]   /home/kwasi/soft_robotics_ws/build/soft_robot_control/ament_cmake_core/package.cmake)
+[14.916s]   returned error code 1
+[14.916s] Call Stack (most recent call first):
+[14.919s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[14.920s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[14.920s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[14.921s] 
+[14.922s] [0m
+[14.923s] -- Configuring incomplete, errors occurred!
+[14.924s] See also "/home/kwasi/soft_robotics_ws/build/soft_robot_control/CMakeFiles/CMakeOutput.log".
+[14.938s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '1': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake /home/kwasi/soft_robotics_ws/src/soft_robot_control -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/soft_robot_control

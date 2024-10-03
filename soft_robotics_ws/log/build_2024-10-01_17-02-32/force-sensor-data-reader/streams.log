@@ -1,0 +1,4 @@
+[0.130s] Invoking command in '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader': /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/force-sensor-data-reader -- -j2 -l2
+[0.535s] [ 50%] [32mBuilding CXX object CMakeFiles/force-sensor-data-reader.dir/netft.cpp.o[0m
+[0.694s] [100%] [32m[1mLinking CXX executable force-sensor-data-reader[0m
+[1.520s] [100%] Built target force-sensor-data-reader

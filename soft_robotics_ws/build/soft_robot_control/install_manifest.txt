@@ -1,0 +1,16 @@
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/soft_robot_control/force_sensor_data_reader
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/package_run_dependencies/soft_robot_control
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/parent_prefix_path/soft_robot_control
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.sh
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/ament_prefix_path.dsv
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.sh
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/environment/path.dsv
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.bash
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.sh
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.zsh
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/local_setup.dsv
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.dsv
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/ament_index/resource_index/packages/soft_robot_control
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig.cmake
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/cmake/soft_robot_controlConfig-version.cmake
+/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.xml

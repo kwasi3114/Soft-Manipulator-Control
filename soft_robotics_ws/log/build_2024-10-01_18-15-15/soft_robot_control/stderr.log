@@ -1,0 +1,37 @@
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   34 |     [01;31m[Kros[m[K::init(argc, argv, "force_sensor_data_reader"); // Initialize the ROS node with the new name
+      |     [01;31m[K^~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   35 |     [01;31m[Kros[m[K::NodeHandle nh;                                // Node handle for ROS communication
+      |     [01;31m[K^~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   38 |     [01;31m[Kros[m[K::Publisher average_pub = nh.advertise<std_msgs::Float64>("sensor_average", 10);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:84:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   84 |     [01;31m[Kros[m[K::Rate loop_rate(1);  // 1 Hz means it sends data once per second
+      |     [01;31m[K^~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:87:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   87 |     while ([01;31m[Kros[m[K::ok()) {
+      |            [01;31m[K^~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:108:19:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Float64[m[K’?
+  108 |         std_msgs::[01;31m[KFloat64[m[K avg_msg;
+      |                   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:7[m[K,
+                 from [01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:11[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp:122:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Float64[m[K’ declared here
+  122 | using [01;36m[KFloat64[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_msg[m[K’ was not declared in this scope
+  109 |         [01;31m[Kavg_msg[m[K.data = average;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:112:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaverage_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kaverage[m[K’?
+  112 |         [01;31m[Kaverage_pub[m[K.publish(avg_msg);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kaverage[m[K
+[01m[K/home/kwasi/soft_robotics_ws/src/soft_robot_control/soft_robot_control/force_sensor_data_reader.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+  118 |         [01;31m[Kloop_rate[m[K.sleep();
+      |         [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/force_sensor_data_reader.dir/build.make:76: CMakeFiles/force_sensor_data_reader.dir/soft_robot_control/force_sensor_data_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/force_sensor_data_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

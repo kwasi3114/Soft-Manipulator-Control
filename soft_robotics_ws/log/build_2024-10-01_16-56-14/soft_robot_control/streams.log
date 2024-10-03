@@ -1,0 +1,5 @@
+[0.126s] Invoking command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2
+[0.314s] [0mCMake Error: The source directory "/home/kwasi/soft_robotics_ws/src/soft_robot_control" does not appear to contain CMakeLists.txt.
+[0.316s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.325s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.342s] Invoked command in '/home/kwasi/soft_robotics_ws/build/soft_robot_control' returned '2': CMAKE_PREFIX_PATH=/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/kwasi/soft_robotics_ws/build/soft_robot_control -- -j2 -l2

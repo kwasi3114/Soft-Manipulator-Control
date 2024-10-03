@@ -1,0 +1,132 @@
+[1.768s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.768s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x789d5e5111b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789d5ee892a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789d5ee892a0>>, mixin_verb=('build',))
+[3.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.946s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kwasi/soft_robotics_ws'
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extension 'ignore'
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extension 'ignore_ament_install'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extensions ['colcon_pkg']
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extension 'colcon_pkg'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extensions ['colcon_meta']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extension 'colcon_meta'
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extensions ['ros']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_robot_control) by extension 'ros'
+[4.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/soft_robot_control' with type 'ros.ament_python' and name 'soft_robot_control'
+[4.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.762s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kwasi/mower_sim_ws/install
+[4.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kwasi/depth_camera_ws/install
+[4.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[4.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_args' from command line to 'None'
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_target' from command line to 'None'
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[5.254s] Level 5:colcon.colcon_core.verb:set package 'soft_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.254s] DEBUG:colcon.colcon_core.verb:Building package 'soft_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kwasi/soft_robotics_ws/build/soft_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kwasi/soft_robotics_ws/install/soft_robot_control', 'merge_install': False, 'path': '/home/kwasi/soft_robotics_ws/src/soft_robot_control', 'symlink_install': False, 'test_result_base': None}
+[5.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kwasi/soft_robotics_ws/src/soft_robot_control' with build type 'ament_python'
+[5.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_robot_control', 'ament_prefix_path')
+[5.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/ament_prefix_path.ps1'
+[5.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/ament_prefix_path.dsv'
+[5.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/ament_prefix_path.sh'
+[5.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.411s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kwasi/soft_robotics_ws/src/soft_robot_control'
+[8.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kwasi/soft_robotics_ws/src/soft_robot_control': PYTHONPATH=/home/kwasi/soft_robotics_ws/build/soft_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/soft_robot_control build --build-base /home/kwasi/soft_robotics_ws/build/soft_robot_control/build install --record /home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log --single-version-externally-managed install_data
+[17.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kwasi/soft_robotics_ws/src/soft_robot_control' returned '0': PYTHONPATH=/home/kwasi/soft_robotics_ws/build/soft_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/soft_robot_control build --build-base /home/kwasi/soft_robotics_ws/build/soft_robot_control/build install --record /home/kwasi/soft_robotics_ws/build/soft_robot_control/install.log --single-version-externally-managed install_data
+[17.280s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control' for CMake module files
+[17.289s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control' for CMake config files
+[17.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_robot_control', 'cmake_prefix_path')
+[17.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/cmake_prefix_path.ps1'
+[17.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/cmake_prefix_path.dsv'
+[17.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/cmake_prefix_path.sh'
+[17.306s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib'
+[17.307s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control/bin'
+[17.308s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/pkgconfig/soft_robot_control.pc'
+[17.310s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control/lib/python3.10/site-packages'
+[17.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_robot_control', 'pythonpath')
+[17.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/pythonpath.ps1'
+[17.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/pythonpath.dsv'
+[17.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/hook/pythonpath.sh'
+[17.324s] Level 1:colcon.colcon_core.environment:checking '/home/kwasi/soft_robotics_ws/install/soft_robot_control/bin'
+[17.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(soft_robot_control)
+[17.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.ps1'
+[17.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.dsv'
+[17.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.sh'
+[17.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.bash'
+[17.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/soft_robot_control/package.zsh'
+[17.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kwasi/soft_robotics_ws/install/soft_robot_control/share/colcon-core/packages/soft_robot_control)
+[17.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.368s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.426s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.427s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.521s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kwasi/soft_robotics_ws/install/local_setup.ps1'
+[17.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kwasi/soft_robotics_ws/install/_local_setup_util_ps1.py'
+[17.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kwasi/soft_robotics_ws/install/setup.ps1'
+[17.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kwasi/soft_robotics_ws/install/local_setup.sh'
+[17.567s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kwasi/soft_robotics_ws/install/_local_setup_util_sh.py'
+[17.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kwasi/soft_robotics_ws/install/setup.sh'
+[17.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kwasi/soft_robotics_ws/install/local_setup.bash'
+[17.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kwasi/soft_robotics_ws/install/setup.bash'
+[17.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kwasi/soft_robotics_ws/install/local_setup.zsh'
+[17.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kwasi/soft_robotics_ws/install/setup.zsh'

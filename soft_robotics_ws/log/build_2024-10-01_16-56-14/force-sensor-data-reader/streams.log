@@ -1,0 +1,16 @@
+[0.128s] Invoking command in '/home/kwasi/soft_robotics_ws/build/force-sensor-data-reader': /usr/bin/cmake /home/kwasi/soft_robotics_ws/force_sensor_code -DCMAKE_INSTALL_PREFIX=/home/kwasi/soft_robotics_ws/install/force-sensor-data-reader
+[0.751s] -- The C compiler identification is GNU 11.4.0
+[1.259s] -- The CXX compiler identification is GNU 11.4.0
+[1.326s] -- Detecting C compiler ABI info
+[1.781s] -- Detecting C compiler ABI info - done
+[1.852s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.853s] -- Detecting C compile features
+[1.859s] -- Detecting C compile features - done
+[1.886s] -- Detecting CXX compiler ABI info
+[2.422s] -- Detecting CXX compiler ABI info - done
+[2.495s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.497s] -- Detecting CXX compile features
+[2.501s] -- Detecting CXX compile features - done
+[2.506s] -- Configuring done
+[2.520s] -- Generating done
+[2.525s] -- Build files have been written to: /home/kwasi/soft_robotics_ws/build/force-sensor-data-reader
